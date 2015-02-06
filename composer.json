@@ -1,0 +1,8 @@
+{
+    "require": {
+        "parse/php-sdk" : "1.0.*",
+        "facebook/php-sdk-v4": "~4.1.0@dev",
+        "slim/slim": "2.*"
+
+    }
+}
