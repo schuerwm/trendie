@@ -84,14 +84,13 @@
                 		<div style="width:30%;padding:50px;margin: 0 auto;background-color:#ececec">
                 		                     
 							 <form class="form-horizontal" method="post" action="register_first.php" data-toggle="validator" role="form">
-                              <div class="form-group has-error">
+                              <div class="form-group">
                                 <label class="sr-only control-label" for="frmEmail" style="text-align:left;width:100%;display:block">Email address</label>
                                 <input type="email" class="form-control" id="frmEmail" name="frmEmail" placeholder="Enter email address">
                               </div>
 							    <div class="form-group">
                                 <label class="sr-only control-label" for="frmPassword">Password</label>
                                 <input type="password" data-minlength="6" class="form-control" id="frmPassword" name="frmPassword" placeholder="Enter password">
-                                <span class="help-block">Minimum of 6 characters</span>
                               </div>
 							  <div class="form-group" align=right>
 							    <div >

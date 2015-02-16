@@ -24,7 +24,7 @@
 
 			 try {
 			    $currentUser->save();
-			     header("Location: /homepage.php");
+			     header("Location: /home.php");
 			     die();
 			 } catch (ParseException $ex) {
 			          echo "Error: " . $ex->getCode() . " " . $ex->getMessage();
